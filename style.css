@@ -1,0 +1,48 @@
+/* Reset default spacing */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0f19;
+  color: #ffffff;
+}
+
+#Clicker {
+ margin: 0 auto;
+}
+
+button {
+  background-color: #0057ff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  /* Makes the hover change smooth */
+  transition: all 0.3s ease; 
+}
+
+#b1:hover {
+  background-color: green; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight upward lift */
+  box-shadow: 0 6px 15px rgb(0, 128, 0); /* Soft shadow */
+}
+
+#b2:hover {
+  background-color: red; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight upward lift */
+  box-shadow: 0 6px 15px rgb(164, 49, 49); /* Soft shadow */
+}
+
+
+#b3:hover {
+  background-color: green; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight upward lift */
+  box-shadow: 0 6px 15px rgb(0, 128, 0); /* Soft shadow */
+}
+
+#b4:hover {
+  background-color: green; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight upward lift */
+  box-shadow: 0 6px 15px rgb(0, 128, 0); /* Soft shadow */
+}
